@@ -11,8 +11,10 @@ body {
 }
 
 .container {
-  margin: 0 200px;
+  margin: 0 auto;
   height: 100vh;
+  max-width: 1000px;
+  padding-top: -10%;
 }
 
 main {
@@ -25,7 +27,9 @@ main {
 
 .img-container img {
   border-radius: 50%;
-  width: 350px;
+  width: 80%;
+  max-width: 350px;
+  min-width: 200px;
 }
 
 .right-container { 
@@ -41,3 +45,41 @@ main {
   font-weight: 500;
 }
 
+.portfolio-imgs {
+  margin: 0 auto;
+}
+
+.portfolio-imgs a {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-imgs img {
+  width: 80%;
+  transition: all 0.3s ease 0s;
+}
+
+.portfolio-imgs img:hover {
+  width: 100%;
+}
+
+.portfolio-imgs div p{
+  width: 100%;
+  text-align: right;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-item p {
+  font-weight: 400;
+}
+
+.profile {
+  box-shadow: 1px 1px 5px 1px #333;
+}
