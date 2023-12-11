@@ -1,0 +1,37 @@
+header .top-nav {
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #555;
+  padding: 30px 10px;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 26px;
+}
+
+.nav-link {
+  list-style: none;
+  display: inline-block;
+  padding: 0 0 0 40px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.ativo {
+  font-weight: 500;
+}
+
+.nav-link a:hover {
+  color: #e1670a;
+}
